@@ -1,0 +1,6 @@
+
+menu "Phyplus bluetooth applications"
+	depends on PHY6222_SDK
+
+	source "$APPSDIR/phy6222/config/simpleBlePeripheral/Kconfig"
+endmenu # Phyplus bluetooth application
