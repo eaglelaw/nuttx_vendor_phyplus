@@ -1,0 +1,6 @@
+
+config PHY6222_SDK
+  bool "phyplus phy6222 ble sdk"
+  default n
+  help
+    enable phyplus phy6222 ble sdk.

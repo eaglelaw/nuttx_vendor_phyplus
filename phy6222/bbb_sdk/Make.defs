@@ -1,0 +1,3 @@
+ifneq ($(CONFIG_PHY6222_SDK),)
+CONFIGURED_APPS += $(APPDIR)/phy6222/bbb_sdk
+endif
