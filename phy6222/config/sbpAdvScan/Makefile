@@ -22,21 +22,21 @@ include $(APPDIR)/Make.defs
 
 # simple ble! built-in application info
 
-PROGNAME  = $(CONFIG_PHYAPP_SIMPLEBLEPERIPHERAL_PROGNAME)
-PRIORITY  = $(CONFIG_PHYAPP_SIMPLEBLEPERIPHERAL_PRIORITY)
-STACKSIZE = $(CONFIG_PHYAPP_SIMPLEBLEPERIPHERAL_STACKSIZE)
-MODULE    = $(CONFIG_PHYAPP_SIMPLEBLEPERIPHERAL)
+PROGNAME  = $(CONFIG_PHYAPP_SBPADVSCAN_PROGNAME)
+PRIORITY  = $(CONFIG_PHYAPP_SBPADVSCAN_PRIORITY)
+STACKSIZE = $(CONFIG_PHYAPP_SBPADVSCAN_STACKSIZE)
+MODULE    = $(CONFIG_PHYAPP_SBPADVSCAN)
 
 # simple ble Example
 
 include Make.cflags
 
-CSRCS += ../../bbb_sdk/example/ble_peripheral/simpleBlePeripheral/source/OSAL_SimpleBLEPeripheral.c
-CSRCS += ../../bbb_sdk/example/ble_peripheral/simpleBlePeripheral/source/sbpProfile_ota.c
-CSRCS += ../../bbb_sdk/example/ble_peripheral/simpleBlePeripheral/source/simpleBLEPeripheral.c
-CSRCS += ../../bbb_sdk/example/ble_peripheral/simpleBlePeripheral/source/SimpleBLEPeripheral_Main.c
+CSRCS += ../../bbb_sdk/example/ble_peripheral/sbpAdvScan/source/OSAL_SimpleBLEPeripheral.c
+CSRCS += ../../bbb_sdk/example/ble_peripheral/sbpAdvScan/source/sbpProfile_ota.c
+CSRCS += ../../bbb_sdk/example/ble_peripheral/sbpAdvScan/source/simpleBLEPeripheral.c
+CSRCS += ../../bbb_sdk/example/ble_peripheral/sbpAdvScan/source/SimpleBLEPeripheral_Main.c
 
-MAINSRC = ../../bbb_sdk/example/ble_peripheral/simpleBlePeripheral/main.c
+MAINSRC = ../../bbb_sdk/example/ble_peripheral/sbpAdvScan/main.c
 
 include $(APPDIR)/Application.mk
 
