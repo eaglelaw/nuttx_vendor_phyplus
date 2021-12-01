@@ -4,3 +4,9 @@ config PHY6222_SDK
   default n
   help
     enable phyplus phy6222 ble sdk.
+config PHY6222_PHY_MESH
+  depends on PHY6222_SDK
+  bool "phyplus phy6222 ble mesh components"
+  default n
+  help
+    enable phyplus phy6222 ble mesh components.

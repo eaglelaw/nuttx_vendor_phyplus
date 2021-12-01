@@ -1,0 +1,30 @@
+#
+# For a description of the syntax of this configuration file,
+# see the file kconfig-language.txt in the NuttX tools repository.
+#
+
+config PHYAPP_MSH_LIGHT
+  depends on PHY6222_PHY_MESH
+	tristate "\"Phy6222 BLE mesh light app !\" example"
+	default n
+	---help---
+		Enable the \"Phy6222 BLE mesh light app !\" example
+
+if PHYAPP_MSH_LIGHT
+
+config PHYAPP_MSH_LIGHT_PROGNAME
+	string "Program name"
+	default "light"
+	---help---
+		This is the name of the program that will be used when the NSH ELF
+		program is installed.
+
+config PHYAPP_MSH_LIGHT_PRIORITY
+	int "Phy6222 BLE app mesh light task priority"
+	default 100
+
+config PHYAPP_MSH_LIGHT_STACKSIZE
+	int "Phy6222 BLE app mesh light stack size"
+	default DEFAULT_TASK_STACKSIZE
+
+endif
