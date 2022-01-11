@@ -31,12 +31,12 @@ MODULE    = $(CONFIG_PHYAPP_MSH_LIGHT)
 
 include Make.cflags
 
-CSRCS += ../../bbb_sdk/example/ble_peripheral/sbpAdvScan/source/OSAL_SimpleBLEPeripheral.c
-CSRCS += ../../bbb_sdk/example/ble_peripheral/sbpAdvScan/source/sbpProfile_ota.c
-CSRCS += ../../bbb_sdk/example/ble_peripheral/sbpAdvScan/source/simpleBLEPeripheral.c
-CSRCS += ../../bbb_sdk/example/ble_peripheral/sbpAdvScan/source/SimpleBLEPeripheral_Main.c
+CSRCS += ../../bbb_sdk/example/ble_mesh/mesh_light/source/bleMesh/bleMesh.c
+CSRCS += ../../bbb_sdk/example/ble_mesh/mesh_light/source/bleMesh/bleMesh_Main.c
+CSRCS += ../../bbb_sdk/example/ble_mesh/mesh_light/source/bleMesh/OSAL_bleMesh.c
+CSRCS += ../../bbb_sdk/example/ble_mesh/mesh_light/source/bleMesh/appl_sample_example_phylight.c
 
-MAINSRC = ../../bbb_sdk/example/ble_peripheral/sbpAdvScan/main.c
+MAINSRC = ../../bbb_sdk/example/ble_mesh/mesh_light/source/main.c
 
 include $(APPDIR)/Application.mk
 

@@ -5,4 +5,5 @@ menu "Phyplus bluetooth applications"
 	source "$APPSDIR/phy6222/config/simpleBlePeripheral/Kconfig"
 	source "$APPSDIR/phy6222/config/sbpAdvScan/Kconfig"
 	source "$APPSDIR/phy6222/config/mesh_light/Kconfig"
+	source "$APPSDIR/phy6222/config/mijia_mesh_light/Kconfig"
 endmenu # Phyplus bluetooth application

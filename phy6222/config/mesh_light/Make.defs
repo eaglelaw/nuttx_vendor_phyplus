@@ -20,4 +20,5 @@
 
 ifneq ($(CONFIG_PHYAPP_MSH_LIGHT),)
 CONFIGURED_APPS += $(APPDIR)/phy6222/config/mesh_light
+
 endif

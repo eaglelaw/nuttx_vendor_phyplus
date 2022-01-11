@@ -57,3 +57,17 @@ CFLAGS += -I../../bbb_sdk/components/driver/flash
 CFLAGS += -I../../bbb_sdk/components/driver/spiflash
 CFLAGS += -I../../bbb_sdk/components/driver/watchdog
 CFLAGS += -I../../bbb_sdk/components/driver/adc
+CFLAGS += -I../../bbb_sdk/components/ethermind/external/crypto/sha256
+CFLAGS += -I../../bbb_sdk/components/ethermind/osal/src/phyos
+CFLAGS += -I../../bbb_sdk/components/ethermind/platforms
+CFLAGS += -I../../bbb_sdk/components/ethermind/mesh/export/include
+CFLAGS += -I../../bbb_sdk/components/ethermind/platforms/mesh
+CFLAGS += -I../../bbb_sdk/components/ethermind/mesh/export/platforms/ext
+CFLAGS += -I../../bbb_sdk/components/ethermind/utils/include
+CFLAGS += -I../../bbb_sdk/components/ethermind/mesh/export/bearer
+CFLAGS += -I../../bbb_sdk/components/ethermind/mesh/export/climodel
+CFLAGS += -I../../bbb_sdk/components/ethermind/mesh/export/vendormodel
+CFLAGS += -I../../bbb_sdk/components/ethermind/mesh/export/vendormodel/server
+CFLAGS += -I../../bbb_sdk/components/ethermind/mesh/export/cbtimer
+
+CFLAGS += -I../../bbb_sdk/example/ble_mesh/mesh_light/source/bleMesh
