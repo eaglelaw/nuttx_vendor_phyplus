@@ -35,7 +35,7 @@ CSRCS += ../../bbb_sdk/example/ble_mesh/mijia_mesh_light/source/app_main.c
 CSRCS += ../../bbb_sdk/example/ble_mesh/mijia_mesh_light/source/bleMesh/bleMesh.c
 CSRCS += ../../bbb_sdk/example/ble_mesh/mijia_mesh_light/source/bleMesh/bleMesh_Main.c
 CSRCS += ../../bbb_sdk/example/ble_mesh/mijia_mesh_light/source/bleMesh/OSAL_bleMesh.c
-CSRCS += ../../bbb_sdk/example/ble_mesh/mijia_mesh_light/source/bleMesh/appl_sample_example_phylight.c
+#CSRCS += ../../bbb_sdk/example/ble_mesh/mijia_mesh_light/source/bleMesh/appl_sample_example_phylight.c
 
 CSRCS += ../../bbb_sdk/example/ble_mesh/mijia_mesh_light/source/miot_spec/on_action_invoke.c
 CSRCS += ../../bbb_sdk/example/ble_mesh/mijia_mesh_light/source/miot_spec/on_property_get.c
