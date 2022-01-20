@@ -27,28 +27,30 @@ PRIORITY  = $(CONFIG_PHYAPP_MIJIA_LIGHT_PRIORITY)
 STACKSIZE = $(CONFIG_PHYAPP_MIJIA_LIGHT_STACKSIZE)
 MODULE    = $(CONFIG_PHYAPP_MIJIA_LIGHT)
 
+
+VPATH = ../../bbb_sdk/example/ble_mesh/mijia_mesh_light/source:../../bbb_sdk/example/ble_mesh/mijia_mesh_light/source/bleMesh:../../bbb_sdk/example/ble_mesh/mijia_mesh_light/source/miot_spec
 # simple ble Example
 
 include Make.cflags
 
-CSRCS += ../../bbb_sdk/example/ble_mesh/mijia_mesh_light/source/app_main.c
-CSRCS += ../../bbb_sdk/example/ble_mesh/mijia_mesh_light/source/bleMesh/bleMesh.c
-CSRCS += ../../bbb_sdk/example/ble_mesh/mijia_mesh_light/source/bleMesh/bleMesh_Main.c
-CSRCS += ../../bbb_sdk/example/ble_mesh/mijia_mesh_light/source/bleMesh/OSAL_bleMesh.c
-#CSRCS += ../../bbb_sdk/example/ble_mesh/mijia_mesh_light/source/bleMesh/appl_sample_example_phylight.c
+CSRCS += app_main.c
+CSRCS += bleMesh.c
+CSRCS += bleMesh_Main.c
+CSRCS += OSAL_bleMesh.c
+#CSRCS += appl_sample_example_phylight.c
 
-CSRCS += ../../bbb_sdk/example/ble_mesh/mijia_mesh_light/source/miot_spec/on_action_invoke.c
-CSRCS += ../../bbb_sdk/example/ble_mesh/mijia_mesh_light/source/miot_spec/on_property_get.c
-CSRCS += ../../bbb_sdk/example/ble_mesh/mijia_mesh_light/source/miot_spec/on_property_request.c
-CSRCS += ../../bbb_sdk/example/ble_mesh/mijia_mesh_light/source/miot_spec/on_property_set.c
-CSRCS += ../../bbb_sdk/example/ble_mesh/mijia_mesh_light/source/miot_spec/S_1_DeviceInformation_doGet.c
-CSRCS += ../../bbb_sdk/example/ble_mesh/mijia_mesh_light/source/miot_spec/S_2_Light_doAction.c
-CSRCS += ../../bbb_sdk/example/ble_mesh/mijia_mesh_light/source/miot_spec/S_2_Light_doChange.c
-CSRCS += ../../bbb_sdk/example/ble_mesh/mijia_mesh_light/source/miot_spec/S_2_Light_doGet.c
-CSRCS += ../../bbb_sdk/example/ble_mesh/mijia_mesh_light/source/miot_spec/S_2_Light_doSet.c
+CSRCS += on_action_invoke.c
+CSRCS += on_property_get.c
+CSRCS += on_property_request.c
+CSRCS += on_property_set.c
+CSRCS += S_1_DeviceInformation_doGet.c
+CSRCS += S_2_Light_doAction.c
+CSRCS += S_2_Light_doChange.c
+CSRCS += S_2_Light_doGet.c
+CSRCS += S_2_Light_doSet.c
 
 
-MAINSRC = ../../bbb_sdk/example/ble_mesh/mijia_mesh_light/source/main.c
+MAINSRC = main.c
 
 include $(APPDIR)/Application.mk
 

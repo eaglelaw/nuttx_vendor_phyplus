@@ -1,0 +1,9 @@
+*.d
+*.o
+*.obj
+*.out
+*.dep
+*.i
+*.hex*
+*.htm
+
