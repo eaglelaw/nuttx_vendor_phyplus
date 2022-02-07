@@ -54,6 +54,3 @@ MAINSRC = main.c
 
 include $(APPDIR)/Application.mk
 
-#clean:
-#	@echo 	$(call DELFILE, ../../bbb_sdk/example/ble_peripheral/simpleBlePeripheral/source/*.o)
-#	$(call DELFILE, ../../bbb_sdk/example/ble_peripheral/simpleBlePeripheral/source/*.o)
