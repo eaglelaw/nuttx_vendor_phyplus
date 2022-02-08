@@ -581,18 +581,55 @@ S_2_Light_doSet.c.home.sw001.proj.phy_vela.nuttx_vendor_phyplus.phy6222.config.m
 main.c.home.sw001.proj.phy_vela.nuttx_vendor_phyplus.phy6222.config.mijia_mesh_light.o: \
  ../../bbb_sdk/example/ble_mesh/mijia_mesh_light/source/main.c \
  ../../bbb_sdk/misc/rom_sym_def.h \
- /home/sw001/proj/phy_vela/nuttx/include/stdlib.h \
+ /home/sw001/proj/phy_vela/nuttx/include/stdio.h \
  /home/sw001/proj/phy_vela/nuttx/include/nuttx/config.h \
- /home/sw001/proj/phy_vela/nuttx/include/nuttx/compiler.h \
  /home/sw001/proj/phy_vela/nuttx/include/sys/types.h \
+ /home/sw001/proj/phy_vela/nuttx/include/nuttx/compiler.h \
  /home/sw001/proj/phy_vela/nuttx/include/stdint.h \
  /home/sw001/proj/phy_vela/nuttx/include/arch/types.h \
  /home/sw001/proj/phy_vela/nuttx/include/arch/inttypes.h \
  /home/sw001/proj/phy_vela/nuttx/include/limits.h \
  /home/sw001/proj/phy_vela/nuttx/include/arch/limits.h \
+ /home/sw001/proj/phy_vela/prebuilts/gcc/linux/arm/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h \
+ /home/sw001/proj/phy_vela/nuttx/include/time.h \
+ /home/sw001/proj/phy_vela/nuttx/include/nuttx/fs/fs.h \
+ /home/sw001/proj/phy_vela/nuttx/include/stdbool.h \
+ /home/sw001/proj/phy_vela/nuttx/include/nuttx/semaphore.h \
+ /home/sw001/proj/phy_vela/nuttx/include/errno.h \
+ /home/sw001/proj/phy_vela/nuttx/include/semaphore.h \
+ /home/sw001/proj/phy_vela/nuttx/include/nuttx/clock.h \
+ /home/sw001/proj/phy_vela/nuttx/include/nuttx/sched.h \
+ ../../bbb_sdk/components/xiaomi/libs/common/queue.h \
+ ../../bbb_sdk/components/xiaomi/api/mible_type.h \
+ ../../bbb_sdk/components/xiaomi/api/mible_port.h \
+ ../../bbb_sdk/components/driver/log/log.h \
+ /home/sw001/proj/phy_vela/nuttx/include/sched.h \
+ /home/sw001/proj/phy_vela/nuttx/include/strings.h \
+ /home/sw001/proj/phy_vela/nuttx/include/string.h \
+ /home/sw001/proj/phy_vela/nuttx/include/stddef.h \
+ /home/sw001/proj/phy_vela/nuttx/include/queue.h \
+ /home/sw001/proj/phy_vela/nuttx/include/signal.h \
+ /home/sw001/proj/phy_vela/nuttx/include/nuttx/irq.h \
+ /home/sw001/proj/phy_vela/nuttx/include/arch/irq.h \
+ /home/sw001/proj/phy_vela/nuttx/include/arch/chip/irq.h \
+ /home/sw001/proj/phy_vela/nuttx/include/arch/phy62xx/phy62xx_irq.h \
+ /home/sw001/proj/phy_vela/nuttx/include/arch/phy62xx/chip.h \
+ /home/sw001/proj/phy_vela/nuttx/include/arch/armv6-m/irq.h \
+ /home/sw001/proj/phy_vela/nuttx/include/arch/chip/chip.h \
+ /home/sw001/proj/phy_vela/nuttx/include/nuttx/tls.h \
+ /home/sw001/proj/phy_vela/nuttx/include/pthread.h \
+ /home/sw001/proj/phy_vela/nuttx/include/sys/prctl.h \
+ /home/sw001/proj/phy_vela/nuttx/include/unistd.h \
+ /home/sw001/proj/phy_vela/nuttx/include/nuttx/wdog.h \
+ /home/sw001/proj/phy_vela/nuttx/include/nuttx/mm/shm.h \
+ /home/sw001/proj/phy_vela/nuttx/include/nuttx/mm/gran.h \
+ /home/sw001/proj/phy_vela/nuttx/include/nuttx/net/net.h \
+ /home/sw001/proj/phy_vela/nuttx/include/arch/arch.h \
+ /home/sw001/proj/phy_vela/nuttx/include/nuttx/pgalloc.h \
+ /home/sw001/proj/phy_vela/nuttx/include/nuttx/addrenv.h \
+ /home/sw001/proj/phy_vela/nuttx/include/stdlib.h \
  ../../bbb_sdk/components/inc/bus_dev.h \
  ../../bbb_sdk/components/inc/mcu.h ../../bbb_sdk/components/inc/types.h \
- /home/sw001/proj/phy_vela/nuttx/include/stdbool.h \
  ../../bbb_sdk/components/arch/cm0/core_bumbee_m0.h \
  ../../bbb_sdk/components/inc/types.h \
  ../../bbb_sdk/components/inc/mcu_phy_bumbee.h \
@@ -604,7 +641,6 @@ main.c.home.sw001.proj.phy_vela.nuttx_vendor_phyplus.phy6222.config.mijia_mesh_l
  ../../bbb_sdk/components/ble/controller/ll_def.h \
  ../../bbb_sdk/components/osal/include/comdef.h \
  ../../bbb_sdk/components/ble/include/bcomdef.h \
- ../../bbb_sdk/components/driver/log/log.h \
  ../../bbb_sdk/components/ble/controller/ll_buf.h \
  ../../bbb_sdk/components/ble/controller/ll_sleep.h \
  ../../bbb_sdk/components/osal/include/OSAL_PwrMgr.h \
