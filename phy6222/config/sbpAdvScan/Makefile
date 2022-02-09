@@ -27,6 +27,7 @@ PRIORITY  = $(CONFIG_PHYAPP_SBPADVSCAN_PRIORITY)
 STACKSIZE = $(CONFIG_PHYAPP_SBPADVSCAN_STACKSIZE)
 MODULE    = $(CONFIG_PHYAPP_SBPADVSCAN)
 
+VPATH = ../../bbb_sdk/example/ble_peripheral/sbpAdvScan/source:../../bbb_sdk/example/ble_peripheral/sbpAdvScan:
 # simple ble Example
 
 include Make.cflags
