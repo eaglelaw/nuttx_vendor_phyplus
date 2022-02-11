@@ -32,12 +32,12 @@ VPATH = ../../bbb_sdk/example/ble_peripheral/sbpAdvScan/source:../../bbb_sdk/exa
 
 include Make.cflags
 
-CSRCS += ../../bbb_sdk/example/ble_peripheral/sbpAdvScan/source/OSAL_SimpleBLEPeripheral.c
-CSRCS += ../../bbb_sdk/example/ble_peripheral/sbpAdvScan/source/sbpProfile_ota.c
-CSRCS += ../../bbb_sdk/example/ble_peripheral/sbpAdvScan/source/simpleBLEPeripheral.c
-CSRCS += ../../bbb_sdk/example/ble_peripheral/sbpAdvScan/source/SimpleBLEPeripheral_Main.c
+CSRCS += OSAL_SimpleBLEPeripheral.c
+CSRCS += sbpProfile_ota.c
+CSRCS += simpleBLEPeripheral.c
+CSRCS += SimpleBLEPeripheral_Main.c
 
-MAINSRC = ../../bbb_sdk/example/ble_peripheral/sbpAdvScan/main.c
+MAINSRC = main.c
 
 include $(APPDIR)/Application.mk
 

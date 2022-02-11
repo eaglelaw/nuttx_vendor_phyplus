@@ -165,8 +165,7 @@ SimpleBLEPeripheral_Main.c.home.sw001.proj.phy_vela.nuttx_vendor_phyplus.phy6222
  ../../bbb_sdk/components/osal/include/osal_snv.h
 main.c.home.sw001.proj.phy_vela.nuttx_vendor_phyplus.phy6222.config.sbpAdvScan.o: \
  ../../bbb_sdk/example/ble_peripheral/sbpAdvScan/main.c \
- ../../bbb_sdk/components/inc/bus_dev.h \
- ../../bbb_sdk/components/inc/mcu.h ../../bbb_sdk/components/inc/types.h \
+ ../../bbb_sdk/components/inc/types.h \
  /home/sw001/proj/phy_vela/nuttx/include/stdint.h \
  /home/sw001/proj/phy_vela/nuttx/include/nuttx/config.h \
  /home/sw001/proj/phy_vela/nuttx/include/nuttx/compiler.h \
@@ -175,9 +174,9 @@ main.c.home.sw001.proj.phy_vela.nuttx_vendor_phyplus.phy6222.config.sbpAdvScan.o
  /home/sw001/proj/phy_vela/nuttx/include/limits.h \
  /home/sw001/proj/phy_vela/nuttx/include/arch/limits.h \
  /home/sw001/proj/phy_vela/nuttx/include/stdbool.h \
- ../../bbb_sdk/misc/rom_sym_def.h \
+ ../../bbb_sdk/misc/rom_sym_def.h ../../bbb_sdk/components/inc/bus_dev.h \
+ ../../bbb_sdk/components/inc/mcu.h ../../bbb_sdk/components/inc/types.h \
  ../../bbb_sdk/components/arch/cm0/core_bumbee_m0.h \
- ../../bbb_sdk/components/inc/types.h \
  ../../bbb_sdk/components/inc/mcu_phy_bumbee.h \
  ../../bbb_sdk/components/driver/gpio/gpio.h \
  ../../bbb_sdk/components/inc/error.h \
@@ -209,6 +208,6 @@ main.c.home.sw001.proj.phy_vela.nuttx_vendor_phyplus.phy6222.config.sbpAdvScan.o
  ../../bbb_sdk/components/ble/controller/rf_phy_driver.h \
  ../../bbb_sdk/components/inc/version.h \
  ../../bbb_sdk/components/driver/flash/flash.h \
- ../../bbb_sdk/components/driver/watchdog/watchdog.h
+ ../../bbb_sdk/components/osal/include/OSAL_Tasks.h
 # No files specified for dependency generation
 # No files specified for dependency generation

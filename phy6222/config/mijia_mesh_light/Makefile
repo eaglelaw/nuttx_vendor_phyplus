@@ -38,6 +38,7 @@ CSRCS += bleMesh.c
 CSRCS += bleMesh_Main.c
 CSRCS += OSAL_bleMesh.c
 #CSRCS += appl_sample_example_phylight.c
+CSRCS += dongleKey.c
 
 CSRCS += on_action_invoke.c
 CSRCS += on_property_get.c
