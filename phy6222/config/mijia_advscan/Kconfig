@@ -1,0 +1,30 @@
+#
+# For a description of the syntax of this configuration file,
+# see the file kconfig-language.txt in the NuttX tools repository.
+#
+
+config PHYAPP_MIJIA_ADVSCAN
+  depends on PHY6222_PHY_MESH && MIJIA_APIS
+	tristate "\"Phy6222 mijia advscan app !\" example"
+	default n
+	---help---
+		Enable the \"Phy6222 mijia advscan app !\" example
+
+if PHYAPP_MIJIA_ADVSCAN
+
+config PHYAPP_MIJIA_ADVSCAN_PROGNAME
+	string "Program name"
+	default "advscan"
+	---help---
+		This is the name of the program that will be used when the mijia ELF
+		program is installed.
+
+config PHYAPP_MIJIA_ADVSCAN_PRIORITY
+	int "Phy6222 mijia mesh advscan task priority"
+	default 100
+
+config PHYAPP_MIJIA_ADVSCAN_STACKSIZE
+	int "Phy6222 mijia mesh advscan stack size"
+	default DEFAULT_TASK_STACKSIZE
+
+endif
